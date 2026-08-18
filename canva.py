@@ -107,7 +107,7 @@ async def setcanva(ctx):
     )
     
     # Thêm hình ảnh minh họa lớn (Bạn có thể thay đổi link ảnh Canva tùy ý)
-    embed.set_image(url="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop")
+    embed.set_image(url="https://cdn.tgdd.vn/News/1558244/2-1280x720.jpg")
     
     # Thêm dòng chữ bản quyền dưới footer
     embed.set_footer(text="by : MHL_ATP 6 SCAN")
@@ -117,4 +117,4 @@ async def setcanva(ctx):
     await ctx.send(embed=embed, view=view)
 
 # Thay TOKEN_BOT_CUAR_BAN bằng token thật của bạn
-bot.run("TOKEN_BOT_CUAR_BAN")
+bot.run("MTUwMTIwMTc3OTIwMTgwNjM1Ng.GasNCz.FQl5H-jTv6gTFUhZflcMz7wUoqBX4gDHI3-NJE")
