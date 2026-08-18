@@ -117,4 +117,7 @@ async def setcanva(ctx):
     await ctx.send(embed=embed, view=view)
 
 # Thay TOKEN_BOT_CUAR_BAN bằng token thật của bạn
-bot.run("DISCORD_TOKEN")
+bot.run("import os
+
+# Thay vì bot.run("DISCORD_TOKEN"), hãy sửa thành:
+bot.run(os.getenv("DISCORD_TOKEN"))")
