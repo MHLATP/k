@@ -117,4 +117,4 @@ async def setcanva(ctx):
     await ctx.send(embed=embed, view=view)
 
 # Thay TOKEN_BOT_CUAR_BAN bằng token thật của bạn
-bot.run("MTUwMTIwMTc3OTIwMTgwNjM1Ng.GasNCz.FQl5H-jTv6gTFUhZflcMz7wUoqBX4gDHI3-NJE")
+bot.run("DISCORD_TOKEN")
